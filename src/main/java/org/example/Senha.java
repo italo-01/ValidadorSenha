@@ -15,7 +15,7 @@ public class Senha {
             String especiais = "!@#$%&";
             for (char c : mensagem.toCharArray()) {
                 if (especiais.contains(String.valueOf(c))) {
-                    return "Senha cadastrada com sucesso!";
+                    return "Senha cadastrada com sucesso!!";
 
                 }
             }
